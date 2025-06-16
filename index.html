@@ -55,7 +55,7 @@
         </address>
         <button type="button" class="header-btn-solidmenu">
           <svg class="icon-solidmenu" width="24" height="24">
-            <use href="/images/icons.svg#icon-solidmenu"></use>
+            <use href="./images/icons.svg#icon-solidmenu"></use>
           </svg>
         </button>
       </div>
@@ -66,19 +66,21 @@
               <use href="./images/icons.svg#icon-modal-close"></use>
             </svg>
           </button>
-          <ul class="mob-menu-list">
-            <li class="mob-menu-list-item">
-              <a class="mob-menu-item-link current" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li class="mob-menu-list-item">
-              <a class="mob-menu-item-link" href="">Portfolio</a>
-            </li>
-            <li class="mob-menu-list-item">
-              <a class="mob-menu-item-link" href="">Contacts</a>
-            </li>
-          </ul>
+          <nav>
+            <ul class="mob-menu-list">
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-item-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-item-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-item-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div>
           <address class="mob-menu-contact">
@@ -86,13 +88,15 @@
               <li class="mob-menu-contact-list-item">
                 <a
                   class="mob-menu-contact-list-link mail"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
                 >
               </li>
               <li class="mob-menu-contact-list-item">
-                <a class="mob-menu-contact-list-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
+                <a
+                  class="mob-menu-contact-list-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
                 >
               </li>
             </ul>
@@ -100,28 +104,28 @@
           <ul class="mob-menu-social-link-list">
             <li class="mob-menu-link-list-item">
               <a class="mob-menu-link" href="">
-                <svg class="mob-menu-link-item-icon" width="16" height="16">
+                <svg class="mob-menu-link-item-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="mob-menu-link-list-item">
               <a class="mob-menu-link" href="">
-                <svg class="mob-menu-link-item-icon" width="16" height="16">
+                <svg class="mob-menu-link-item-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="mob-menu-link-list-item">
               <a class="mob-menu-link" href="">
-                <svg class="mob-menu-link-item-icon" width="16" height="16">
+                <svg class="mob-menu-link-item-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="mob-menu-link-list-item">
               <a class="mob-menu-link" href="">
-                <svg class="mob-menu-link-item-icon" width="16" height="16">
+                <svg class="mob-menu-link-item-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -704,7 +708,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-backdrop">
+    <div class="modal-backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
@@ -781,8 +785,10 @@
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="link-accept-modal" href="">Privacy Policy</a>
+              <span class="text-accept">
+                I accept the terms and conditions of the
+                <a class="link-accept-modal" href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
 
